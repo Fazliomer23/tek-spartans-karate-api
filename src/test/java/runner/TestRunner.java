@@ -10,6 +10,7 @@ public class TestRunner {
                 .run("classpath:features")
 
                 .karateEnv("dev")
+
                 .tags("@Regression")
                 .outputCucumberJson(true);
     }
